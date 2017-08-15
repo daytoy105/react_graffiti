@@ -1,4 +1,4 @@
-@import '../../assets/css/index.scss';
+@import '../assets/css/index.scss';
 
 canvas {
     position: fixed;
@@ -13,21 +13,7 @@ canvas {
     justify-content: center;
 }
 
-.canvas_b1,
-.canvas_b2 {
-    position: fixed;
-    width: px(92);
-    height: px(92);
-    bottom: 3.7rem;
-    margin: 0 auto;
-    background: url(../../assets/images/xian_edit.png) 0 0/100% 100%;
-    z-index: 5;
-}
-
-.canvas_b2 {
-    background: url(../../assets/images/xian_ok.png) 0 0/100% 100%;
-}
-
+ 
 .canvasImg img {
     position: absolute;
     width: 100%;
